@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div>
+        <div>
+            <p class="paraum">Pesquisa para ofertas de vagas</p>
+            <p class="paradois">Olá! Poderia responder essa pesquisa pra gente?</p>
+            <p class="paratres">Somos uma plataforma que visa proporcionar a melhor experiência para as pessoas que procuram um emprego na área de Tecnologia.</br>
+            E respondendo essa pesquisa, você nos ajuda a sempre melhorar o tracking de perfil dos nossos usuários com vagas abertas do mercado!</p>
+        </div>
+        <div>
+            <form method="GET" action="login.php">
+            	<p class="nomecom"> Nome Completo:</p>
+            	<input type="text" class="inputnome" name="Nome Completo"/></br></br>
+            	<p class="email"> E-mail:</p>
+            	<input type="text" class="inputemail" name="E-mail"/></br></br>
+            	<p class="phone"> Telefone:</p>
+            	<input type="text" class="inputphone" name="Telefone"/></br></br>
+            	<p class="endereco"> Endereço:</p>
+            	<input type="text" class="inputendereco" name="Endereço"/></br></br>
+            	<p class="vaga"> Qual vaga você procura?</p>
+            	<select name="OV" class="selectvaga">
+            		<option value="0"></option>
+            		<option value="1">Designer</option>
+            		<option value="2">Dev web</option>
+            		<option value="3">Dev hardware</option>
+            		<option value="4">Outros</option>	
+            	</select></br></br>
+            	<p class="lugar"> Onde nos achou?</p>
+            	<select class="selectlugar" name="OL">
+            		<option value="0"></option>
+            		<option value="1">Televisão</option>
+            		<option value="2">Rádio</option>
+            		<option value="3">Jornal</option>
+            		<option value="4">Mídias Sociais</option>
+            		<option value="5">Outros</option>	
+            	</select></br></br>
+            	<p class="aceito"><input type="checkbox" name="Aceito"></p><p class="textaceito">Aceito receber propostas de vagas por e-mail de acordo com meu perfil profissional cadastrado na plataforma:</p>
+				<input type="submit" class="enviar" value="Enviar Respostas"/>
+            </form> 
+        </div>
+    </div>
+</body>
+</html>
