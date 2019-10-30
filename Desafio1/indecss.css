@@ -1,0 +1,59 @@
+body {
+    background: url(./imagens/bg.png);
+    background-repeat: no-repeat;
+    width: inherit;
+    height: inherit;
+    background-color: #16d8cee3;
+}
+.div1 {
+    background-image: linear-gradient(to right, rgba(255, 230, 0, 0.644), #ff5608a4);
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
+.flutuante {
+    position: fixed;
+    top: 320px;
+    left: 120px;
+    margin-right: 20px;
+}
+.d1 {
+    left: 80px;
+}
+.d2 {
+    left: 210px;
+}
+.d3 {
+    left: 340px;
+}
+.d4 {
+    left: 470px;
+}
+.d5 {
+    left: 600px;
+}
+.d6 {
+    left: 730px;
+}
+.d7{
+    left: 860px;
+}
+.d8 {
+    left: 990px;
+}
+.d9 {
+    left: 1120px;
+}
+p.lm {
+    
+    font-family: "Verdana", sans-serif;
+    font-size: 22px;
+    font-variant-position: center;
+    font-weight: 900;
+    
+}
+p.a{
+    font:small-caps;
+    font-size: 15px;
+    
+}
